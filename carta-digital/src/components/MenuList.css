@@ -1,0 +1,43 @@
+.menu-section {
+  padding: 2rem 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.section-divider {
+  height: 3px;
+  width: 60px;
+  margin: 0 auto;
+  background: var(--color-brazil-green);
+  border-radius: 2px;
+}
+
+.menu-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive: En tablets o escritorios, mostrar en dos columnas */
+@media (min-width: 768px) {
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .product-card {
+    margin-bottom: 0;
+  }
+}

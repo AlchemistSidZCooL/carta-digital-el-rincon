@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Zilla+Slab:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+  /* Paleta de Colores - Temática Brasil+España */
+  --color-bg-main: #0a0a0a; /* Negro muy oscuro para fundir con portada */
+  --color-bg-secondary: #1a1a1a;
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #B0B0B0;
+  
+  --color-spain-red: #C1272D;
+  --color-spain-yellow: #F1BF00;
+  --color-brazil-green: #009B3A;
+  --color-brazil-yellow: #FEDE00;
+
+  /* Tipografías */
+  --font-body: 'Outfit', sans-serif;
+  --font-heading: 'Zilla Slab', serif;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #050505;
+  background-image: radial-gradient(circle at 50% 0%, #151515 0%, #050505 60%);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+h3 { font-size: clamp(1.25rem, 3vw, 1.75rem); }
+
+/* Estructura Principal para Desktop (App-like view) */
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: var(--color-bg-main);
+  position: relative;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); /* Sutil sombra para separarlo del fondo en PC */
+}
+
+/* Clases Utilitarias */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.text-gradient-es {
+  background: linear-gradient(90deg, var(--color-spain-red) 0%, var(--color-spain-yellow) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-br {
+  background: linear-gradient(90deg, var(--color-brazil-green) 0%, var(--color-brazil-yellow) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+  body {
+    /* Prevent horizontal scrolling on mobile */
+    overflow-x: hidden;
+  }
+  
+  .glass-panel {
+    border-radius: 12px;
+  }
+}

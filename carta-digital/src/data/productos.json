@@ -1,0 +1,289 @@
+[
+  {
+    "id": "rac-01",
+    "nombre": "Tiras de pollo crujientes con salsa exclusiva de la casa",
+    "precio": 11.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-01.webp"
+  },
+  {
+    "id": "rac-02",
+    "nombre": "Delicias de tilapia",
+    "precio": 14.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-02.webp"
+  },
+  {
+    "id": "rac-03",
+    "nombre": "Patatas fritas con bacon y queso cheddar",
+    "precio": 11.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-03.webp"
+  },
+  {
+    "id": "rac-04",
+    "nombre": "Corazones de alcachofas salteadas con jamón",
+    "precio": 15.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-04.webp"
+  },
+  {
+    "id": "rac-05",
+    "nombre": "Langostino al ajillo con un toque de limón y perejil",
+    "precio": 14.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-05.webp"
+  },
+  {
+    "id": "rac-06",
+    "nombre": "Ensalada César",
+    "precio": 12.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-06.webp"
+  },
+  {
+    "id": "rac-07",
+    "nombre": "Alitas de pollo fritas",
+    "precio": 12.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-07.webp"
+  },
+  {
+    "id": "rac-08",
+    "nombre": "Deliciosos tequeños con salsa de la casa",
+    "precio": 10.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-08.webp"
+  },
+  {
+    "id": "rac-09",
+    "nombre": "Pastel de feira",
+    "precio": 8.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-09.webp"
+  },
+  {
+    "id": "rac-10",
+    "nombre": "Pan de queso",
+    "precio": 10.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-10.webp"
+  },
+  {
+    "id": "rac-11",
+    "nombre": "Torreznos",
+    "precio": 11.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-11.webp"
+  },
+  {
+    "id": "rac-12",
+    "nombre": "Coxinha de pollo y de costilla",
+    "precio": 10.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-12.webp"
+  },
+  {
+    "id": "rac-13",
+    "nombre": "Jamón de bellota",
+    "precio": 22.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-13.webp"
+  },
+  {
+    "id": "rac-14",
+    "nombre": "Queso curado",
+    "precio": 12.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-14.webp"
+  },
+  {
+    "id": "rac-15",
+    "nombre": "Sfiha de sabores variados (4 unidades)",
+    "precio": 10.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-15.webp"
+  },
+  {
+    "id": "rac-16",
+    "nombre": "Parmegiana",
+    "descripcion": "Filete de ternera empanado con queso y salsa de tomate",
+    "precio": 18.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-16.webp"
+  },
+  {
+    "id": "rac-17",
+    "nombre": "Risoles de carne",
+    "precio": 10.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-17.webp"
+  },
+  {
+    "id": "rac-18",
+    "nombre": "Tabla de tapilla encebollada y calabresa acompañada con patatas fritas",
+    "precio": 21.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-18.webp"
+  },
+  {
+    "id": "rac-19",
+    "nombre": "Pan de ajo relleno de carne o de longaniza y queso gratinado",
+    "precio": 12.00,
+    "categoria": "Raciones",
+    "imagen": "/products/rac-19.webp"
+  },
+  {
+    "id": "pas-01",
+    "nombre": "Espaguettis a la boloñesa",
+    "precio": 15.00,
+    "categoria": "Pastas",
+    "imagen": "/products/pas-01.webp"
+  },
+  {
+    "id": "pas-02",
+    "nombre": "Espaguettis con langostinos",
+    "precio": 18.00,
+    "categoria": "Pastas",
+    "imagen": "/products/pas-02.webp"
+  },
+  {
+    "id": "pla-01",
+    "nombre": "Plato de fritura variada",
+    "descripcion": "Boquerones, calamares, chopitos",
+    "precio": 18.00,
+    "categoria": "Platos Combinados",
+    "imagen": "/products/pla-01.webp"
+  },
+  {
+    "id": "pla-02",
+    "nombre": "Moqueca de pescado con arroz y pirón para 1 persona",
+    "precio": 15.00,
+    "categoria": "Platos Combinados",
+    "imagen": "/products/pla-02.webp"
+  },
+  {
+    "id": "pla-03",
+    "nombre": "Pescado frito con guarnición",
+    "precio": 15.00,
+    "categoria": "Platos Combinados",
+    "imagen": "/products/pla-03.webp"
+  },
+  {
+    "id": "pla-04",
+    "nombre": "Entrecot a la piedra o tradicional con patatas fritas",
+    "precio": 22.00,
+    "categoria": "Platos Combinados",
+    "imagen": "/products/pla-04.webp"
+  },
+  {
+    "id": "pla-05",
+    "nombre": "Picaña con guarnición",
+    "precio": 22.00,
+    "categoria": "Platos Combinados",
+    "imagen": "/products/pla-05.webp"
+  },
+  {
+    "id": "pla-06",
+    "nombre": "Lubina a la plancha con verduras",
+    "precio": 17.00,
+    "categoria": "Platos Combinados",
+    "imagen": "/products/pla-06.webp"
+  },
+  {
+    "id": "pla-07",
+    "nombre": "Rabo de toro",
+    "precio": 20.00,
+    "categoria": "Platos Combinados",
+    "imagen": "/products/pla-07.webp"
+  },
+  {
+    "id": "pla-08",
+    "nombre": "Sopas y cremas",
+    "precio": 10.00,
+    "categoria": "Platos Combinados",
+    "imagen": "/products/pla-08.webp"
+  },
+  {
+    "id": "ham-01",
+    "nombre": "Turbo",
+    "descripcion": "2 carnes de hamburguesa de angus, jamón york, bacon, queso, huevo, tomate, lechuga y mayonesa",
+    "precio": 13.50,
+    "categoria": "Hamburguesas",
+    "imagen": "/products/ham-01.webp"
+  },
+  {
+    "id": "ham-02",
+    "nombre": "Pollo Mixto",
+    "descripcion": "Pechuga de pollo, bacon, jamón york, queso, huevo, tomate, lechuga y mayonesa con pan de bocata",
+    "precio": 11.90,
+    "categoria": "Hamburguesas",
+    "imagen": "/products/ham-02.webp"
+  },
+  {
+    "id": "ham-03",
+    "nombre": "Burguer Poderosa",
+    "descripcion": "Hamburguesa de angus, queso, jamón york, tomate, lechuga y mayonesa",
+    "precio": 13.50,
+    "categoria": "Hamburguesas",
+    "imagen": "/products/ham-03.webp"
+  },
+  {
+    "id": "ham-04",
+    "nombre": "Picaña con Bacon",
+    "descripcion": "Filete de picaña, bacon, queso, huevo, lechuga, tomate, mayonesa con pan de bocata",
+    "precio": 12.90,
+    "categoria": "Hamburguesas",
+    "imagen": "/products/ham-04.webp"
+  },
+  {
+    "id": "hot-01",
+    "nombre": "Hot Dog Prensado",
+    "descripcion": "Pan, salchicha, huevo, calabresa, pollo, bacon, carne, maíz, tomate, lechuga, mayonesa, patata paja",
+    "precio": 13.50,
+    "categoria": "Hot Dogs",
+    "imagen": "/products/hot-01.webp"
+  },
+  {
+    "id": "piz-01",
+    "nombre": "Pizza Personalizada",
+    "categoria": "Pizzas",
+    "imagen": "/products/piz-01.webp",
+    "precioSinBorda": 10.00,
+    "precioConBorda": 12.00,
+    "saboresPrincipales": [
+      "Calabresa",
+      "Pollo",
+      "Bacon",
+      "Jamón"
+    ],
+    "extrasDisponibles": [
+      {
+        "nombre": "Vegetales y Frutas",
+        "opciones": [
+          { "nombre": "Cebolla", "precioExtra": 0.50 },
+          { "nombre": "Maíz", "precioExtra": 0.50 },
+          { "nombre": "Champiñón", "precioExtra": 0.50 },
+          { "nombre": "Aceitunas (Azeitunas)", "precioExtra": 0.50 },
+          { "nombre": "Piña", "precioExtra": 0.50 }
+        ]
+      },
+      {
+        "nombre": "Quesos",
+        "opciones": [
+          { "nombre": "Catupiry", "precioExtra": 1.00 },
+          { "nombre": "Cheddar", "precioExtra": 1.00 },
+          { "nombre": "Mozzarella (Mussarela)", "precioExtra": 1.00 }
+        ]
+      },
+      {
+        "nombre": "Salsas",
+        "opciones": [
+          { "nombre": "Salsa de la casa", "precioExtra": 0.50 },
+          { "nombre": "Salsa BBQ", "precioExtra": 0.50 },
+          { "nombre": "Salsa picante", "precioExtra": 0.50 }
+        ]
+      }
+    ]
+  }
+]
