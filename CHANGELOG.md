@@ -18,6 +18,8 @@ Todos los cambios notables de este proyecto serán documentados en este archivo.
 - Modificada la tarjeta de Pizzas para utilizar la expresión correcta en español: "Sin borde" y "Borde de queso".
 - **Optimizaciones Desktop:** Implementación del patrón de diseño "Ventana de App" (`max-width: 600px` y `margin: 0 auto`) en `.app-container` para garantizar la estética en monitores de PC sin romper el enfoque Mobile First. Además se añadió un sutil fondo radial.
 - **Créditos Ultra Luxury:** Creación del componente `Footer.tsx` para los créditos del desarrollador (DANISID) con diseño de alta costura, animaciones doradas fluidas, y salvaguarda de derechos de autor.
+- **Progressive Web App (PWA):** Integración de `manifest.json` y meta-etiquetas OpenGraph en el `index.html`.
+- **Producción:** Despliegue exitoso en **Netlify** y vinculación del dominio oficial registrado vía Cloudflare (**`elrincontetuan.com`**).
 
 ## [0.1.0] - Fase 1 (Inicialización) - 2026-06-14
 

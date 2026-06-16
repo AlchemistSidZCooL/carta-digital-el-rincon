@@ -39,8 +39,9 @@ El servidor iniciará la aplicación, normalmente en `http://localhost:5173`.
 
 ## 🎯 Próximos Pasos (Roadmap)
 
-- [ ] Completar la generación de fotografías premium para las raciones y platos combinados restantes.
-- [ ] Habilitar y estructurar el resto de las categorías en la interfaz (Pastas, Pizzas con sistema de extras, Hamburguesas).
-- [ ] Implementar conversión automatizada de imágenes a formato `.webp` para rendimiento web máximo.
-- [ ] Generar script automatizado para la creación del **Código QR** del restaurante.
-- [ ] Despliegue a producción (hosting online) para acceso público.
+- [x] Completar la generación de fotografías premium para raciones, platos combinados y demás.
+- [x] Habilitar y estructurar el resto de las categorías en la interfaz.
+- [x] Implementar conversión automatizada de imágenes a formato `.webp`.
+- [x] **Despliegue a producción:** Proyecto alojado en Netlify bajo el dominio oficial [elrincontetuan.com](https://elrincontetuan.com).
+- [x] Transformar la carta digital en PWA (Progressive Web App).
+- [ ] **Generar Código QR:** Conectar el enlace final al generador de códigos QR con el favicon centralizado para impresión en mesas.
