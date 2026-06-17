@@ -2,6 +2,13 @@
 
 Todos los cambios notables de este proyecto serán documentados en este archivo.
 
+## [1.0.0] - Producción y Despliegue Final - 2026-06-17
+
+### Añadido
+- **Configuración DNS y SSL:** Vinculación exitosa de registros CNAME en Cloudflare y aprovisionamiento de certificado SSL (HTTPS) Let's Encrypt en Netlify para el dominio `elrincontetuan.com`.
+- **Generador Automático de QR (Python):** Creación de un script personalizado en Python (`generar_qr.py`) que genera un código QR de alta resolución con corrección de errores (ERROR_CORRECT_H) e incrusta matemáticamente el logotipo del restaurante en el centro.
+- **Proyecto Completado:** 100% de la Carta Digital en línea, responsiva y optimizada para uso en entorno real.
+
 ## [0.2.0] - Fase 2 y 3 (Desarrollo Activo) - 2026-06-14
 
 ### Añadido
