@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elrincontetuan.com/sitemap.xml

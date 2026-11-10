@@ -1,5 +1,5 @@
 import './Header.css';
-import heroImg from '../assets/hero_generated.png';
+import heroImg from '../assets/hero_generated.webp';
 
 export function Header() {
   return (
@@ -9,6 +9,9 @@ export function Header() {
           src={heroImg} 
           alt="El Rincón - Ilustración de portada" 
           className="hero-image"
+          width={1024}
+          height={1024}
+          fetchPriority="high"
         />
         
         {/* Textos superpuestos en el letrero de madera */}

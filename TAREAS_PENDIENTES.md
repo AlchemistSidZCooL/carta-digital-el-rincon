@@ -15,3 +15,22 @@
 
 > [!NOTE]
 > El proyecto ha concluido su ciclo de vida de desarrollo activo. La carta digital está lista para ser usada por los clientes del restaurante. Todo mantenimiento futuro se basará en modificar el archivo `productos.json` o actualizar dependencias.
+
+
+---
+
+## Pendientes tras la actualización SEO (2026-11-10)
+
+- [x] **Commit y push** de los cambios (SEO, Cómo llegar, FAQ, rediseño). Dejar fuera los archivos sin seguimiento ajenos al proyecto.
+- [ ] **Revisión visual** en escritorio y móvil (`npm run dev`) y pasar Lighthouse en modo móvil.
+- [ ] **Confirmar con el dueño** la dirección y el teléfono publicados (salieron de una ficha de terceros) y si ese número puede ser público.
+- [x] **Horario de apertura:** `openingHoursSpecification` en el JSON-LD y pregunta en las FAQ. Confirmar con el dueño que abren los 7 días.
+- [ ] **Banner de cookies / Consent Mode** (RGPD) antes de dejar GTM cargando sin consentimiento.
+- [x] GTM con el snippet oficial y `<noscript>`. Falta comprobar con el modo Preview que dispara.
+- [ ] **Search Console:** añadir la propiedad `elrincontetuan.com` (DNS en Cloudflare), enviar el sitemap y solicitar la indexación de la home.
+- [ ] **Perfil de Empresa de Google** del local, con la web enlazada. Gratis, pero fuera del alcance actual (el cliente no lo paga). Si el dueño ya tiene ficha, pedir el enlace corto para `hasMap`/`sameAs`.
+- [ ] Eventos GA4/GTM: clic en «Cómo llegar», «Llamar», categorías y enlace de crédito.
+- [ ] Opcional: service worker, cabeceras de seguridad en Netlify, página 404, fuentes con `preconnect`, texto de presentación visible bajo el hero.
+- [ ] Actualizar el remote de git (el repo aparece movido en GitHub).
+
+- [x] **Volver a `danisid.com`:** hecho; los enlaces usan `https://www.danisid.com/` (el dominio sin www redirige con 301).

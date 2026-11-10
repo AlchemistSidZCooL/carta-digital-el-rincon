@@ -1,6 +1,8 @@
 import { Header } from './components/Header';
 import { CategoryNav } from './components/CategoryNav';
 import { MenuList } from './components/MenuList';
+import { Location } from './components/Location';
+import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 import productosData from './data/productos.json';
 import type { ItemMenu } from './types';
@@ -23,6 +25,9 @@ function App() {
         <MenuList category="Hot Dogs" items={menuItems} />
         <MenuList category="Pizzas" items={menuItems} />
       </main>
+
+      <Location />
+      <FAQ />
       
       <Footer />
     </div>

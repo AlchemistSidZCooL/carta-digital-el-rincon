@@ -34,6 +34,16 @@
 - Incrustación de logotipo y configuración de alta tolerancia a errores de lectura.
 - **Valor estimado de mercado:** 100,00 €
 
+## 6. SEO Técnico y Posicionamiento Web
+- Metadatos, canonical, Open Graph y Twitter Card con imagen social 1200x630.
+- Datos estructurados JSON-LD (`Restaurant`, `Menu`, `FAQPage`, `WebSite`), generados en cada build.
+- Contenido pre-renderizado en el HTML, `sitemap.xml`, `robots.txt`, sección «Cómo llegar» con mapa y FAQ.
+- Integración de Google Tag Manager y optimización de rendimiento (WebP, caché).
+- **Valor estimado de mercado:** 250,00 €
+
+### Servicio adicional (no incluido): Perfil de Empresa de Google
+- Alta, verificación y optimización de la ficha local (horario, fotos, web, categorías) y enlace con el JSON-LD.
+
 ---
 
 ### 💰 RESUMEN DE VALORACIÓN (Mercado Freelance España)
@@ -45,6 +55,7 @@
 | Arte e IA (Fotografía) | 400,00 € |
 | Servidor y Dominio | 200,00 € |
 | Herramientas (Script QR) | 100,00 € |
-| **TOTAL VALOR DE MERCADO** | **2.000,00 €** |
+| SEO técnico y posicionamiento | 250,00 € |
+| **TOTAL VALOR DE MERCADO** | **2.250,00 €** |
 
 > **Nota para el desarrollador:** Esta cotización refleja el costo promedio que una agencia boutique o un desarrollador Freelance Senior en España cobraría por un proyecto llave en mano con estas características (tecnologías modernas, IA generativa, PWA, y diseño premium). Puedes usarla como base para negociar, para tu portafolio, o para tener consciencia del inmenso valor que has creado con tus nuevas habilidades IT. 🚀

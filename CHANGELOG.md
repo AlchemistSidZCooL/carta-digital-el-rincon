@@ -2,6 +2,25 @@
 
 Todos los cambios notables de este proyecto serán documentados en este archivo.
 
+## [1.1.0] - SEO, "Cómo llegar", FAQ y rediseño - 2026-11-10
+
+### Añadido
+- **Google Tag Manager** (`GTM-KRT9D248`) en `index.html` con el snippet oficial y `<noscript>`.
+- **SEO técnico:** `lang="es"`, canonical, Open Graph y Twitter Card con imagen 1200x630, `robots.txt`, `sitemap.xml`, `meta author`, iconos PWA reales (192/512) y `apple-touch-icon`.
+- **Datos estructurados (JSON-LD):** `Restaurant` (dirección, teléfono, coordenadas), `WebSite` (creador), `Menu` con todos los platos y `FAQPage`. El menú y las FAQ se generan en cada build (plugin `seo-prerender` en `vite.config.ts`).
+- **Contenido estático en el HTML** (categorías, platos y precios) para que los buscadores lo lean sin JavaScript.
+- **Sección «Cómo llegar»:** botones de Google Maps (ruta desde la ubicación del usuario), llamar y ver en Maps, más mapa incrustado.
+- **Sección de preguntas frecuentes** generada desde `productos.json` y `src/data/faq.ts`.
+- **CTA de crédito en el footer** con enlaces UTM hacia `www.danisid.com`; `creator` del JSON-LD con `sameAs` (LinkedIn, Instagram).
+- **Horario** (17:00–03:00, terraza hasta las 00:00) y `priceRange` `€€` en el JSON-LD, en «Cómo llegar» y en las FAQ.
+- `netlify.toml` con caché para `/assets/*` y `/products/*`.
+
+### Cambiado
+- **Diseño:** contenedor de 600 a 1200 px, rejilla de 3 columnas en escritorio, hero panorámico, navegación centrada y siempre visible, fotos con proporción fija y hover solo con ratón, soporte `prefers-reduced-motion`.
+- Arreglados los botones de categoría (usaban variables CSS inexistentes).
+- Hero convertido de PNG (1 MB) a WebP (190 KB); imágenes con `width`/`height`, `loading="lazy"` y `alt` descriptivo.
+- Título y descripción con "Madrid"; eliminado `user-scalable=no` del viewport.
+
 ## [1.0.0] - Producción y Despliegue Final - 2026-06-17
 
 ### Añadido

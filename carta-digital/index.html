@@ -1,30 +1,75 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/Favicon-Ricon-Luxury.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Carta Digital de El Rincón de Tetuán. Descubre nuestras raciones, hamburguesas premium, pizzas artesanales y platos combinados." />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="canonical" href="https://elrincontetuan.com/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Carta digital de El Rincón de Tetuán (Madrid): cocina brasileña y española. Raciones, hamburguesas premium, pizzas artesanales, pastas y platos combinados con fotos y precios." />
+    <meta name="author" content="Danisid - https://www.danisid.com" />
     <meta name="theme-color" content="#0a0a0a" />
     <link rel="manifest" href="/manifest.json" />
     
     <!-- Open Graph / Redes Sociales -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="El Rincón - Carta Digital" />
-    <meta property="og:description" content="Nuestra carta digital con lo mejor de la gastronomía hispano-brasileña." />
-    <meta property="og:image" content="/Favicon-Ricon-Luxury.png" />
-    
-    <!-- Google Tag Manager -->
-    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KRT9D248"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <meta property="og:type" content="restaurant.menu" />
+    <meta property="og:site_name" content="El Rincón de Tetuán" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:url" content="https://elrincontetuan.com/" />
+    <meta property="og:title" content="El Rincón de Tetuán | Carta digital - Cocina brasileña y española" />
+    <meta property="og:description" content="Raciones, hamburguesas, pizzas, pastas y platos combinados. Mira la carta completa con fotos y precios." />
+    <meta property="og:image" content="https://elrincontetuan.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="El Rincón de Tetuán | Carta digital" />
+    <meta name="twitter:description" content="Cocina brasileña y española: raciones, hamburguesas, pizzas y más." />
+    <meta name="twitter:image" content="https://elrincontetuan.com/og-image.jpg" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "El Rincón de Tetuán",
+      "url": "https://elrincontetuan.com/",
+      "inLanguage": "es",
+      "creator": { "@type": "Person", "name": "Danisid", "url": "https://www.danisid.com/", "sameAs": ["https://www.linkedin.com/in/danisidcode/", "https://www.instagram.com/danielsid/"] }
+    }
     </script>
 
-    <title>El Rincón - Carta Digital</title>
+    <!-- Datos estructurados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "El Rincón de Tetuán",
+      "url": "https://elrincontetuan.com/",
+      "image": "https://elrincontetuan.com/og-image.jpg",
+      "servesCuisine": ["Brasileña", "Española"],
+      "hasMenu": "https://elrincontetuan.com/",
+      "telephone": "+34624256451",
+      "priceRange": "€€",
+      "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "17:00", "closes": "03:00" }],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle del Marqués de Viana, 11",
+        "addressLocality": "Madrid",
+        "addressRegion": "Madrid",
+        "postalCode": "28039",
+        "addressCountry": "ES"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 40.460936, "longitude": -3.699604 },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Calle+del+Marqu%C3%A9s+de+Viana+11+Madrid"
+    }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KRT9D248');</script>
+
+    <title>El Rincón de Tetuán | Carta digital - Cocina brasileña y española en Madrid</title>
   </head>
   <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRT9D248" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

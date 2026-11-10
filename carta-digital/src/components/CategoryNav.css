@@ -3,7 +3,10 @@
   top: 0;
   z-index: 100;
   padding: 0.5rem 0;
-  background: transparent;
+  background: rgba(10, 10, 10, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   transition: all 0.3s ease;
   margin-bottom: 2rem;
   overflow-x: auto;
@@ -58,7 +61,8 @@
 
 .category-btn.active {
   background: var(--primary-color);
-  color: #fff;
+  color: #111;
+  font-weight: 700;
   border-color: var(--primary-color);
   box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
 }
@@ -73,4 +77,10 @@
     font-size: 0.85rem;
     padding: 0.4rem 1rem;
   }
+}
+
+@media (min-width: 900px) {
+  .category-nav { overflow-x: visible; }
+  .category-list { width: auto; justify-content: center; flex-wrap: wrap; padding: 0 2rem; }
+  .category-btn { font-size: 0.95rem; padding: 0.55rem 1.4rem; }
 }

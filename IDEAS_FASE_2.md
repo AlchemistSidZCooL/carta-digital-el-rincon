@@ -24,3 +24,8 @@ Esta lista contiene propuestas de características y funcionalidades avanzadas p
 
 ## 🔔 6. "Llamar al Camarero" (Avanzado)
 - Botón interactivo que envíe una notificación (vía Telegram o similar) al dispositivo del local indicando: "La mesa X requiere atención".
+
+## 📍 7. Perfil de Empresa de Google (SEO local)
+- Crear o reclamar la ficha de Google Business Profile (gratis) con la web, el horario, la carta y fotos.
+- Aporta presencia en Google Maps y en las búsquedas «cerca de mí». Con la ficha, añadir su enlace a `hasMap` y `sameAs` del JSON-LD.
+- Se ofrece como servicio adicional (ver `COTIZACION_PROYECTO.md`); no incluido en el alcance actual.

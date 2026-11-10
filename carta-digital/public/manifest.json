@@ -3,15 +3,28 @@
   "name": "El Rincón de Tetuán - Carta Digital",
   "icons": [
     {
-      "src": "Favicon-Ricon-Luxury.png",
-      "sizes": "192x192 512x512",
+      "src": "/icon-192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#0a0a0a",
   "background_color": "#0a0a0a",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "lang": "es"
 }

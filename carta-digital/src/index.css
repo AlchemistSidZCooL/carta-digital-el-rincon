@@ -28,6 +28,14 @@
   padding: 0;
 }
 
+:root {
+  --primary-color: #d4af37;
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+
 body {
   font-family: var(--font-body);
   background-color: #050505;
@@ -50,7 +58,7 @@ h3 { font-size: clamp(1.25rem, 3vw, 1.75rem); }
 
 /* Estructura Principal para Desktop (App-like view) */
 .app-container {
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
   background-color: var(--color-bg-main);
@@ -79,6 +87,11 @@ h3 { font-size: clamp(1.25rem, 3vw, 1.75rem); }
   background: linear-gradient(90deg, var(--color-brazil-green) 0%, var(--color-brazil-yellow) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
 /* Mobile Optimizations */

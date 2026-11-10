@@ -53,7 +53,7 @@ export function ProductCard({ product }: ProductCardProps) {
             className="product-image-container clickable" 
             onClick={() => setIsModalOpen(true)}
           >
-            <img src={product.imagen} alt={product.nombre} className="product-image" />
+            <img src={product.imagen} alt={`${product.nombre} - El Rincón de Tetuán`} className="product-image" width={1024} height={1024} loading="lazy" decoding="async" />
             <div className="product-image-overlay">
               <span>🔍 Ampliar</span>
             </div>
